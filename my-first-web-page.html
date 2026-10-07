@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- DOCTYPE tells the browser this file is written in HTML5 -->
+<html lang="en">
+<!-- <html> is the root element that wraps the whole page; lang="en" says the page is in English -->
+<head>
+    <!-- <head> holds information ABOUT the page (not shown in the main window) -->
+    <meta charset="UTF-8">
+    <!-- Sets the character encoding to UTF-8 so symbols like the copyright sign display correctly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Makes the page scale properly on phones and small screens -->
+    <title>My First Web Page</title>
+    <!-- The text shown on the browser tab -->
+    <style>
+        /* <style> lets us write CSS (styling rules) directly inside this HTML file */
+        body {
+            /* "body" selects everything visible on the page */
+            font-family: Arial, sans-serif;  /* Sets the font used for all text */
+            background-color: #f4f4f4;       /* Light gray page background */
+            color: #222222;                  /* Dark gray text color */
+            margin: 0;                       /* Removes the default space around the page edges */
+            padding: 0;                      /* Removes default inner spacing */
+        }
+        header {
+            /* Styles the <header> section at the top */
+            background-color: #1f4e79;       /* Dark blue background */
+            color: white;                    /* White text */
+            text-align: center;              /* Centers the text */
+            padding: 20px;                   /* Adds space inside the header */
+        }
+        main {
+            /* Styles the main content area */
+            max-width: 600px;                /* Keeps the content from getting too wide */
+            margin: 30px auto;               /* 30px space above/below; "auto" centers it horizontally */
+            background-color: white;         /* White box for the content */
+            padding: 20px;                   /* Space inside the box */
+            border-radius: 8px;              /* Rounds the corners */
+        }
+        footer {
+            /* Styles the <footer> section at the bottom */
+            text-align: center;              /* Centers the footer text */
+            padding: 15px;                   /* Space inside the footer */
+            background-color: #1f4e79;       /* Same dark blue as the header */
+            color: white;                    /* White text */
+        }
+    </style>
+</head>
+<!-- </head> closes the head section -->
+<body>
+    <!-- <body> contains everything that is visible on the web page -->
+    <header>
+        <!-- <header> is the top section of the page -->
+        <h1>My First Web Page</h1>
+        <!-- <h1> is the biggest heading; it shows the page title -->
+    </header>
+    <!-- </header> closes the header section -->
+
+    <main>
+        <!-- <main> holds the primary content of the page -->
+        <h2>Student Information</h2>
+        <!-- <h2> is a smaller sub-heading -->
+        <p><strong>Username:</strong> efc27</p>
+        <!-- <p> is a paragraph; <strong> makes the label bold; this line shows the username -->
+        <p><strong>Course Name:</strong> Introduction to Web Development</p>
+        <!-- Displays the name of the course -->
+        <p><strong>Course Number:</strong> 117</p>
+        <!-- Displays the course number -->
+        <p><strong>Section:</strong> 001</p>
+        <!-- Displays the section number -->
+    </main>
+    <!-- </main> closes the main content area -->
+
+    <footer>
+        <!-- <footer> is the bottom section of the page -->
+        <p>&copy; Edward Chacon | Due Date: October 16, 2026</p>
+        <!-- &copy; displays the copyright symbol; then my name and the assignment due date -->
+    </footer>
+    <!-- </footer> closes the footer section -->
+</body>
+<!-- </body> closes the visible content of the page -->
+</html>
+<!-- </html> closes the root element and ends the file -->
